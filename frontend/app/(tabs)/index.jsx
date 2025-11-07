@@ -14,7 +14,7 @@ export default function Index() {
     };
 
     axios
-      .post("http://192.168.1.7:5000/subir", Mensaje)
+      .post("https://back-jt2t.onrender.com/subir", Mensaje)
       .then(function (res) {
         alert("El mensaje se envió");
         setTimeout(function () {
